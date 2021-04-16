@@ -2,24 +2,12 @@
 
 优雅的树形数据结构管理包,基于`Closure Table`模式设计.
 
-## Features
-
-- 优雅的树形数据设计模式
-- 最少的数据库查询
-- 一个Eloquent Trait简单操作
-- 完善的树形结构操作方法
-- 支持生成树形数据
-- 支持多个根存在
-- 支持节点/树修复
-- 支持软删除
-- ...
 
 ## 依赖
 
 - php > 5.6.0
-- laravel ~5.0|~6.0|~7.0
 - mysql > 5.1.0
-
+- tp5.0
 ## 关于`Closure Table`
 
 > Closure table is a simple and elegant way of storing and querying hierarchical data in any RDBMS. By hierarchical data we mean a set of data that has some parent – child relationship among them. We use the word ‘tree’ instead of hierarchies commonly. As an example we may take the relationships between geographic locations like ‘Countries’, ‘States/ Province’, ‘Districts/ Cities’ etc.
