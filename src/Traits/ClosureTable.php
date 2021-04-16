@@ -1,11 +1,12 @@
 <?php
 
-namespace Jiaxincui\ClosureTable\Traits;
+namespace Closure\Traits;
 
 
+use Closure\Extensions\CollectionExtension;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use Jiaxincui\ClosureTable\Extensions\CollectionExtension;
+
 use think\Model;
 
 trait ClosureTable

@@ -1,6 +1,6 @@
 <?php
 
-namespace Jiaxincui\ClosureTable\Extensions;
+namespace Closure\Extensions;
 
 
 
@@ -19,7 +19,7 @@ class CollectionExtension extends Collection
     public function toTree($primary = 'id', $parent = 'parent', $children = 'children')
     {
         $data = $this->toArray();
-      
+
         if (! isset($data[0][$parent])) {
             return [];
         }
