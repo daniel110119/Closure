@@ -1,0 +1,24 @@
+{
+    "name": "closure/lugege",
+    "version": "2.1.11",
+    "description": "基于TP5 closure",
+    "keywords": ["TP5-closure", "tree", "closure", "tp5-closure", "tp5-tree"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lugege",
+            "email": "254419506@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^5.0|^6.0|^7.0|^8.0",
+        "illuminate/support": "^5.0|^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Closure\\": "src/"
+        }
+    }
+}
