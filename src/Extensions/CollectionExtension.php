@@ -90,4 +90,5 @@ class CollectionExtension extends Collection
 
         return [$value, $key];
     }
+
 }
