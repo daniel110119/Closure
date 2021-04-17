@@ -18,7 +18,7 @@
         "psr-4": {
             "Closure\\": "src/"
         },
-        "file": [
+        "files": [
             "src/helps.php"
         ]
     }
