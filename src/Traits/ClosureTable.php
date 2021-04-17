@@ -269,7 +269,7 @@ trait ClosureTable
         $ancestor = $this->getQualifiedAncestorColumn();
         $descendant = $this->getQualifiedDescendantColumn();
         $query = $this
-            ->leftJoin($closureTable, $keyName, '=', $ancestor)
+            ->leftJoin($closureTable,"$keyName = $ancestor" )
             ->whereNull($ancestor)
             ->whereNull($descendant);
         return $query;
@@ -286,7 +286,7 @@ trait ClosureTable
         $ancestor = $this->getQualifiedAncestorColumn();
         $descendant = $this->getQualifiedDescendantColumn();
         return $query
-            ->leftJoin($closureTable, $keyName, '=', $ancestor)
+            ->leftJoin($closureTable,"$keyName = $ancestor" )
             ->whereNull($ancestor)
             ->whereNull($descendant);
     }
