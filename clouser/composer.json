@@ -1,9 +1,7 @@
 {
     "name": "closure/lugege",
-    "version": "2.1.11",
     "description": "基于TP5 closure",
     "keywords": ["TP5-closure", "tree", "closure", "tp5-closure", "tp5-tree"],
-    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +11,7 @@
         }
     ],
     "require": {
+        "php": ">=7.0",
         "symfony/var-dumper": "^5.2"
     },
     "autoload": {
